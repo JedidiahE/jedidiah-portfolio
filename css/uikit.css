@@ -18,7 +18,7 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 3 */
   background: #171717;
-  color: #666;
+  color: rgba(255, 255, 255, 0.7);
 }
 /*
  * Remove the margin in all browsers.
@@ -2013,7 +2013,7 @@ select.uk-form-width-xsmall {
 }
 /* Hover */
 .uk-button-secondary:hover {
-  background-color: #151515;
+  background-color: #ff6e1f;
   color: #fff;
 }
 /* OnClick + Active */
@@ -2092,7 +2092,7 @@ select.uk-form-width-xsmall {
 }
 /* Hover */
 .uk-button-text:hover {
-  color: #333;
+  color: #ff6e1f;
 }
 .uk-button-text:hover::before {
   right: 0;
@@ -9848,7 +9848,7 @@ iframe[data-uk-cover] {
 .uk-card-secondary > :not([class*="uk-card-media"]),
 .uk-overlay-primary,
 .uk-offcanvas-bar {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 .uk-light a,
 .uk-light .uk-link,
@@ -11331,7 +11331,7 @@ iframe[data-uk-cover] {
 .uk-card-secondary > :not([class*="uk-card-media"]) .uk-button-text:hover,
 .uk-overlay-primary .uk-button-text:hover,
 .uk-offcanvas-bar .uk-button-text:hover {
-  color: #fff;
+  color: #ff6e1f;
 }
 .uk-light .uk-button-text:disabled,
 .uk-section-primary:not(.uk-preserve-color) .uk-button-text:disabled,
