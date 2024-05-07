@@ -1,0 +1,138 @@
+header,
+section {
+	width: 960px;
+	margin: 0 auto;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+
+header .logo,
+header .description {
+	width: 50%;
+	float: left;
+}
+
+header .description {
+	margin-top: 15px;
+}
+
+header p.tagline {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+header li {
+	float: left;
+	margin-right: 25px;
+}
+
+/********************** Your Code Goes Here ******************/
+body{
+	background: #f2f2e9;
+}
+
+h1,
+h2,
+h3{
+	color: #6d4842;
+}
+
+header{
+margin-bottom: 2rem;
+}
+
+.logo p{
+	color: #6d4842;
+}
+
+header div nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header div nav ul li a{
+	text-decoration: none;
+	color: rgb(122, 122, 122);
+
+}
+
+header div nav ul li a:hover{
+	color: #6d4842;
+}
+
+header div .hero{
+	background: url(../img/cupcake-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 540px;
+	justify-content: center;
+}
+
+header div .hero p{
+	margin: 24rem 0 0 4rem;
+	color: #6d4842;
+	background: rgba(242, 242, 233, 0.7);
+	padding: 1rem;
+	border-radius: 1rem;
+	max-width: 45%;
+}
+
+h2{
+	padding: none;
+}
+
+section{
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #6d4842;
+	margin-bottom: 1rem;
+}
+
+section div {
+	padding-bottom: 0.5rem;
+}
+
+section .drinkflex{
+	display: flex;
+	justify-content: space-between;
+}
+
+section .drinkflex p{
+	padding-bottom: 0.5rem;
+}
+
+section .special{
+	max-width: 50%;
+}
+
+section:last-child{
+	border-bottom: none;
+}
+
+.special section{
+	border-bottom: none;
+}
+
+section .main-flex{
+	display: flex;
+	justify-content: space-evenly;
+}
